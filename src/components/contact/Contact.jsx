@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_3fjfb17', 'template_ky1ucaz', form.current, 'user_641J0AWGxx4qcKi835yDq')
+    emailjs.sendForm('service_imc9jhr', 'template_taarc56', form.current, 'user_G4NPFbYZ6YZ_3aPtO')
 
     e.target.reset()
   };
@@ -27,20 +27,20 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>dummyegator@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target="_blank">Send a message</a>
+            <h5>Azee@techie.com</h5>
+            <a href="mailto:azee@techie.com" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>egatortutorials</h5>
-            <a href="https://m.me/ernest.achiever" target="_blank">Send a message</a>
+            <a href="https://m.me/ctrlbugs" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=+1234567890" target="_blank">Send a message</a>
+            <h5>+2349067942645</h5>
+            <a href="https://api.whatsapp.com/send?phone=+2349067942645" target="_blank">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
