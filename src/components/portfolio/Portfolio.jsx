@@ -13,44 +13,44 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Real Estate Mobile App',
+    github: 'https://github.com/ctrlbugs',
+    demo: 'https://www.behance.net/azewenenjigwum'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Workout App for Fitness Tracking & Progress Visualization', 
+    github: 'https://github.com/ctrlbugs',
+    demo: 'https://www.behance.net/azewenenjigwum'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'E-procurement Website', 
+    github: 'https://github.com/ctrlbugs',
+    demo: 'https://www.behance.net/azewenenjigwum'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+    title: 'Elevate Your Journey with Our Premium Car Rental App',
+    github: 'https://github.com/ctrlbugs',
+    demo: 'https://www.behance.net/azewenenjigwum'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Charts templates & infographics in Figma',
     github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    demo: 'https://www.behance.net/azewenenjigwum'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Charts templates & infographics in Figma',
     github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    demo: 'https://www.behance.net/azewenenjigwum'
   }
 ]
 

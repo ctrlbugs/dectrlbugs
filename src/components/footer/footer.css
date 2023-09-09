@@ -52,14 +52,42 @@ footer a {
   color: var(--color-bg);
 }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 600px) {
-  .permalinks {
-    flex-direction: column;
-    gap: 1.5rem;
+/* CSS for BuyMeaCoffee link */
+@keyframes shake {
+  0%, 100% {
+    transform: translateY(0);
   }
+  50% {
+    transform: translateY(-5px); /* Move up 5 pixels */
+  }
+}
 
-  .footer__socials {
-    margin-bottom: 2.6rem;
-  }
+.BuyMeaCoffee-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+  animation: shake 3s infinite; 
+}
+
+.BuyMeaCoffee-link:hover {
+  color: #ffffff;
+}
+
+.Buymecoffee-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.Buymecoffee-icon {
+  height: 2rem; /* Adjust the height as needed */
+  width: 2rem; /* Adjust the width as needed */
+  margin-right: 0.2rem; /* Add some margin between icon and text */
+  margin-top: -4rem; /* Adjust this value to move the icon up */
+}
+
+.BuyMeaCoffee-text {
+  margin: 0; /* Remove default margins */
+  font-size: 1rem; /* Adjust the font size as needed */
+  margin-top: -4rem; /* Adjust this value to move the icon up */
 }

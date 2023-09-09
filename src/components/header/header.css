@@ -1,3 +1,5 @@
+
+
 header {
   height: 100vh;
   padding-top: 7rem;
@@ -9,6 +11,26 @@ header {
   height: 100%;
   position: relative;
 }
+
+.header_h5 {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+.text-light {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Style for the <h1> element */
+header h1 {
+  font-weight: 900;
+  font-size: 50px; /* Adjust the font size as needed */
+}
+
+/* Style for the <span> element inside the <h1> */
+.header-span  {
+  color: #4db5ff;
+}
+
+
 
 /* =============== CTA ============== */
 .cta {
@@ -26,7 +48,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: -1rem;
 }
 
 .header__socials::after {
@@ -35,6 +57,38 @@ header {
   height: 2rem;
   background: var(--color-primary);
 }
+
+.header__socials a:nth-child(1):hover { /* Targets the first child, which is the GitHub icon */
+  color:  #0c71b1; /* LinkedIn color */
+  transform: translateY(-5px);
+  }
+  
+  .header__socials a:nth-child(2):hover { /* Targets the second child, which is the Twitter icon */
+  color: #ffffff; /* Github color */
+  transform: translateY(-5px);
+  }
+  
+  .header__socials a:nth-child(3):hover { /* Targets the third child, which is the Instagram icon */
+  color: #e1306c; /* Instagram color */
+  transform: translateY(-5px);
+  }
+  
+  .header__socials a:nth-child(4):hover { /* Targets the fourth child, which is the LinkedIn icon */
+  color: #ffffff; /* X color */
+  transform: translateY(-5px);
+  }
+  
+  .header__socials a:nth-child(5):hover { /* Targets the fifth child, which is the Behance icon */
+  color: #053eff; /* Behance color */
+  transform: translateY(-5px);
+  }
+
+/* Increase icon size to 1.5rem */
+.header__socials .svg-inline--fa {
+  font-size: 1.5rem;
+}
+
+
 
 /* =============== ME ============== */
 .me {

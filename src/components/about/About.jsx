@@ -23,24 +23,24 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>5+ Years Working</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>175+ Worldwide</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>44+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos voluptatem eius dolorem maiores nihil ducimus at rem ullam reprehenderit quidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.
+          I'm a passionate Frontend Developer and UI/UX Designer. With expertise in HTML, CSS, JavaScript, and frontend frameworks, I bring designs to life with clean code and responsive layouts. My UI/UX skills transform ideas into intuitive interfaces, informed by user research and prototypes. Collaborative and creative, I excel in cross-functional teams and thrive on problem-solving.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
