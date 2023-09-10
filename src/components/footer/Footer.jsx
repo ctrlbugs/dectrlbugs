@@ -70,7 +70,7 @@ const Footer = () => {
       
       <div className="footer__copyright">
         <small>
-          &copy; Copyright 2023 Made with ❤️ by CtrLBugs, All rights reserved.
+          &copy; 2023 Made with ❤️ by CtrLBugs. All rights reserved.
         </small>
       </div>
     </footer>

@@ -3,41 +3,50 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import confetti from 'canvas-confetti';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
-import confetti from 'canvas-confetti';
 
-const Contact = () => {
+function Contact ()  {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm(
-        'service_imc9jhr',
-        'template_taarc56',
+        'service_19df1kn',
+        'template_a55d47q',
         form.current,
-        'user_G4NPFbYZ6YZ_3aPtO'
+        '5jVHKhVESimcTGE7B'
       )
       .then(
-        (response) => {
-          alert('Email sent successfully');
+        (result) => {
+          console.log(result.text);
+          toast.success('Email sent successfully', {
+            position: toast.POSITION.TOP_CENTER,
+          });
           form.current.reset();
+  
+          // Trigger confetti when email is sent successfully
+          confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.7 },
+          });
         },
         (error) => {
-          alert('Failed to send email', error);
-          alert('The official is notified!');
+          console.log(error.text);
+          toast.error('Failed to send email: ' + error.text, {
+            position: toast.POSITION.TOP_CENTER,
+          });
+          toast('The official is notified!', {
+            position: toast.POSITION.TOP_CENTER,
+          });
         }
       );
-  };
-
-   const triggerConfetti = () => {
-    confetti({
-      particleCount: 100, // Number of confetti particles
-      spread: 70, // Spread of the particles
-      origin: { y: 0.7 }, // Starting position (from the top)
-    });
   };
 
   return (
@@ -68,19 +77,13 @@ const Contact = () => {
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name="name" placeholder="Your Full Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea
-          name="message"
-          rows="7"
-          placeholder="Your Message"
-          required
-        ></textarea>
-        <button type="submit" className="btn btn-primary">
-          Send Message
-        </button>
-      </form>
+          <input type="text" name='name' placeholder='Your Full Name' required />
+          <input type="email" name='email' placeholder='Your Email' required />
+          <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
+        </form>
       </div>
+      <ToastContainer />
     </section>
   )
 }
