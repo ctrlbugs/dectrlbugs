@@ -19,23 +19,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Tina Snow',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    name: 'Becky Nnenda',
+    review: 'CtrlBugs exceeded our expectations when it came to UI/UX design for our web and mobile app projects. Their teams creative insights and attention to detail transformed our concepts into user-friendly visually stunning interfaces. The design they delivered not only enhanced the user experience but also made our products stand out in the market.'
   },
   {
     avatar: AVTR2,
-    name: 'Shatta Wale',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    name: 'Carlos Ali',
+    review: 'We turned to CtrlBugs for our web development needs, and they delivered excellence. Their development team took our vision and turned it into a fully functional, responsive website that is not only aesthetically pleasing but also optimized for performance. CtrlBugs is our go-to partner for web development projects.'
   },
   {
     avatar: AVTR3,
-    name: 'Kwame Despite',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    name: 'Samuel Nardy',
+    review: 'CtrlBugs played a pivotal role in bringing our mobile app to life. Their mobile app development expertise and dedication to delivering a seamless user experience resulted in an app that exceeded our expectations. We were impressed with their commitment to quality, and its evident in the final product. We highly recommend CtrlBugs for mobile app development.'
   },
   {
     avatar: AVTR4,
-    name: 'Nana Ama McBrown',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    name: 'Jefferey Olawale',
+    review: 'Managing our websites content has never been easier thanks to CtrlBugs content management solutions. They provided us with a robust CMS that simplified content creation and organization. It allowed us to keep our website fresh and up-to-date with ease. CtrlBugs has truly made content management a breeze for our team.'
   },
 ]
 

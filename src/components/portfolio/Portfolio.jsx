@@ -29,7 +29,7 @@ const data = [
     image: IMG3,
     title: 'E-procurement Website', 
     github: 'https://github.com/ctrlbugs',
-    demo: 'https://www.behance.net/azewenenjigwum'
+    demo: 'https://www.e-procurement.rsbopp.rv.gov.ng/'
   },
   {
     id: 4,
@@ -41,9 +41,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://www.behance.net/azewenenjigwum'
+    title: 'AI Recruitment Website',
+    github: 'https://github.com/ctrlbugs',
+    demo: 'https://github.com/ctrlbugs'
   },
   {
     id: 6,

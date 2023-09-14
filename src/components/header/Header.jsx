@@ -1,16 +1,17 @@
-import React, { useEffect } from 'react'; // Import useEffect for handling the Typed.js initialization
+import React, { useEffect, useState } from 'react'; // Import useState along with useEffect
 import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/me.png';
 import HeaderSocial from './HeaderSocials';
 import Typed from 'typed.js'; // Import Typed.js library
+import DarkModeToggle from 'react-dark-mode-toggle'; // Import DarkModeToggle
 
 const Header = () => {
   useEffect(() => {
     // Function to initialize Typed.js
     const initializeTyped = () => {
       const typed = new Typed('.text-light', {
-        strings: ['Web Developer,  UI/UX Designer'],
+        strings: ['Web Developer, UI/UX Designer'],
         typeSpeed: 400,
         backSpeed: 300,
         loop: false, // Disable looping for one-time typing
@@ -39,30 +40,32 @@ const Header = () => {
     };
   }, []);
 
+ 
   return (
     <header>
-    <div className="container header__container">
-      <h5 className="header-h5">Hi There 👋🏾</h5>
-      <h1>I am <span className="header-span">Azee.</span></h1>  
-      <div className="text-light-container">
-      <h3>
-  <span className="text-light"></span>
-</h3>
+      <div className="container header__container">
+        <h5 className="header-h5">Hi There 👋🏾</h5>
+        <h1>
+          I am <span className="header-span">Azee.</span>
+        </h1>
+        <div className="text-light-container">
+          <h3>
+            <span className="text-light"></span>
+          </h3>
+        </div>
+        <CTA />
+        <HeaderSocial />
+
+        <div className="me">
+          <img src={ME} alt="me" />
+        </div>
+
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
-      <CTA />
-      <HeaderSocial />
-
-      <div className="me">
-        <img src={ME} alt="me" />
-      </div>
-
-      <a href="#contact" className="scroll__down">
-        Scroll Down
-      </a>
-    </div>
-  </header>
-);
-
+    </header>
+  );
 };
 
 export default Header;

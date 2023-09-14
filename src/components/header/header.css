@@ -30,6 +30,16 @@ header h1 {
   color: #4db5ff;
 }
 
+.dark-mode-toggle {
+  background-color: #333; /* Background color for dark mode */
+  /* Add other styles for dark mode */
+}
+
+.light-mode-toggle {
+  background-color: #fff; /* Background color for light mode */
+  /* Add other styles for light mode */
+}
+
 
 
 /* =============== CTA ============== */
