@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b82402c5.css",
-    "main.js": "/static/js/main.2d800417.js",
+    "main.css": "/static/css/main.7644da84.css",
+    "main.js": "/static/js/main.d3f3ff04.js",
     "static/media/cv.pdf": "/static/media/cv.52564f4c2655c30c7ca2.pdf",
     "static/media/me-about.jpg": "/static/media/me-about.b4e2deaecf2a3b8047ab.jpg",
     "static/media/me.png": "/static/media/me.743379d6a79a75f01ea2.png",
-    "static/media/portfolio5.png": "/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/static/media/portfolio2.fd7fd981d6b571b488f5.jpg",
     "static/media/portfolio4.jpg": "/static/media/portfolio4.93370def1b485dac06af.jpg",
     "static/media/portfolio1.jpg": "/static/media/portfolio1.7231f457e831e035787b.jpg",
-    "static/media/portfolio3.jpg": "/static/media/portfolio3.6e9474ab434862d631a4.jpg",
+    "static/media/portfolio3.jpg": "/static/media/portfolio3.2e07d9f0b7fe14c5dff1.jpg",
+    "static/media/portfolio5.png": "/static/media/portfolio5.b99747a067cbdd82fa75.png",
     "static/media/portfolio6.jpg": "/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "static/media/BuyMeaCoffee.png": "/static/media/BuyMeaCoffee.363d4730823347a19b4b.png",
     "static/media/avatar1.jpg": "/static/media/avatar1.1051fffbc0f94e57d6fe.jpg",
@@ -17,11 +17,11 @@
     "static/media/avatar3.jpg": "/static/media/avatar3.dc879d218b9f11eb3724.jpg",
     "static/media/avatar2.jpg": "/static/media/avatar2.281729d33cd0ae3be07c.jpg",
     "index.html": "/index.html",
-    "main.b82402c5.css.map": "/static/css/main.b82402c5.css.map",
-    "main.2d800417.js.map": "/static/js/main.2d800417.js.map"
+    "main.7644da84.css.map": "/static/css/main.7644da84.css.map",
+    "main.d3f3ff04.js.map": "/static/js/main.d3f3ff04.js.map"
   },
   "entrypoints": [
-    "static/css/main.b82402c5.css",
-    "static/js/main.2d800417.js"
+    "static/css/main.7644da84.css",
+    "static/js/main.d3f3ff04.js"
   ]
 }
