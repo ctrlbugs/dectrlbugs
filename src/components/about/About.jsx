@@ -40,8 +40,7 @@ const About = () => {
           </div>
 
           <p>
-          I'm a passionate Frontend Developer and UI/UX Designer. With expertise in HTML, CSS, JavaScript, and frontend frameworks, I bring designs to life with clean code and responsive layouts. My UI/UX skills transform ideas into intuitive interfaces, informed by user research and prototypes. Collaborative and creative, I excel in cross-functional teams and thrive on problem-solving.
-          </p>
+          I am a passionate Web Developer and UI/UX Designer with expertise in HTML, CSS, JavaScript, and frontend frameworks. My work involves translating designs into responsive, clean code. I excel in creating user-centric interfaces informed by thorough research and prototyping. I thrive in collaborative, cross-functional teams, and I'm known for creative problem-solving. My mission is to bridge technology and human interaction through intuitive, aesthetically pleasing design. I look forward to bringing your digital projects to life.          </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
